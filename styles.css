@@ -62,3 +62,19 @@ footer ul li a {
 .text-right {
     text-align: right;
 }
+
+
+
+footer {
+    font-size: 14px; /* تصغير حجم النص */
+    padding: 10px; /* إضافة تباعد بين العناصر داخل التذييل */
+}
+
+footer ul {
+    padding-inline-start: 0; /* إزالة التباعد الافتراضي لقائمة الروابط */
+}
+
+footer ul li {
+    display: inline; /* عرض الروابط بجانب بعضها البعض */
+    margin-right: 10px; /* تباعد بين الروابط */
+}

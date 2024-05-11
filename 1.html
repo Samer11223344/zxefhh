@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض الزهور</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            position: relative; /* إضافة */
+            min-height: 100vh; /* إضافة */
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+            color: #66023c; /* لون النص في الهيدر */
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #66023c; /* لون الروابط في الهيدر */
+        }
+
+        .gallery {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #66023c;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            position: fixed; /* تغيير القيمة */
+            bottom: 0;
+            left: 0;
+        }
+
+        footer ul {
+            padding: 0;
+            list-style-type: none;
+        }
+
+        footer ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        footer ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        @media screen and (max-width: 600px) {
+            header, footer {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>معرض الزهور</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="1.html">معرض الصور</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="gallery">
+        <img src="https://cdn1-m.zahratalkhaleej.ae//wp-content/uploads/2014/01/roses.jpg?v=6" alt="زهرة 1">
+        <img src="https://i.pinimg.com/736x/70/04/e9/7004e95a3a660ec4df684e3e23e3383a.jpg" alt="زهرة 2">
+        <img src="https://images-cdn.ubuy.com.sa/65186466b64a6331f9320fa7-red-roses-50-next-day-flowers.jpg" alt="زهرة 3">
+        <img src="https://modo3.com/thumbs/fit630x300/225484/1552315685/%D8%A3%D8%AC%D9%85%D9%84_%D8%B2%D9%87%D9%88%D8%B1.jpg" alt="زهرة 4">
+        <img src="https://www.almrsal.com/wp-content/uploads/2017/08/%D8%A3%D8%BA%D8%B1%D8%A8-%D8%B2%D9%87%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85.jpg" alt="زهرة 5">
+        <img src="https://iqraa.albiladdaily.com/wp-content/uploads/2018/12/Flowers_15.jpg" alt="زهرة 6">
+    </section>
+    
+    <footer>
+        <h3>تواصل معنا عبر وسائل التواصل الاجتماعي</h3>
+        <ul>
+            <li><a href="#">تيك توك</a></li>
+            <li><a href="#">انستقرام</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
